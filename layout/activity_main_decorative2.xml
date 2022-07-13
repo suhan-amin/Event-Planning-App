@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/appbg"
+    android:padding="40dp"
+    tools:context=".MainActivityDecorative2">
+
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="271dp"
+        android:layout_height="144dp"
+        android:background="#D5983E"
+        android:backgroundTint="#E3F59200"
+        android:text="Stages"
+        android:textAlignment="center"
+        android:textColor="#041991"
+        android:textColorHighlight="#1E0404"
+        android:textColorHint="#047E09"
+        android:textColorLink="#07730B"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.097" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="218dp"
+        android:layout_height="107dp"
+        android:contentDescription="TODO"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.142"
+        app:srcCompat="@drawable/stages" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="271dp"
+        android:layout_height="144dp"
+        android:background="#D5983E"
+        android:backgroundTint="#E3F59200"
+        android:text="Ceremonial Tent"
+        android:textAlignment="center"
+        android:textColor="#041991"
+        android:textColorHighlight="#1E0404"
+        android:textColorHint="#047E09"
+        android:textColorLink="#07730B"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.396" />
+
+    <TextView
+        android:id="@+id/textView14"
+
+        android:layout_width="271dp"
+        android:layout_height="144dp"
+        android:background="#D5983E"
+        android:backgroundTint="#E3F59200"
+        android:text="Floral Decorations"
+        android:textAlignment="center"
+        android:textColor="#041991"
+        android:textColorHighlight="#1E0404"
+        android:textColorHint="#047E09"
+        android:textColorLink="#07730B"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.698" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="271dp"
+        android:layout_height="144dp"
+        android:background="#D5983E"
+        android:backgroundTint="#E3F59200"
+        android:text="Balloon Decoration"
+        android:textAlignment="center"
+        android:textColor="#041991"
+        android:textColorHighlight="#1E0404"
+        android:textColorHint="#047E09"
+        android:textColorLink="#07730B"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="218dp"
+        android:layout_height="107dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.423"
+        app:srcCompat="@drawable/sham" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="218dp"
+        android:layout_height="107dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.512"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.705"
+        app:srcCompat="@drawable/flor" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="218dp"
+        android:layout_height="107dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.519"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.977"
+        app:srcCompat="@drawable/bln" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DECORATIONS"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="#161819"
+        android:textColorHighlight="#F44336"
+        android:textColorHint="#FFEB3B"
+        android:textColorLink="#E91E63"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
